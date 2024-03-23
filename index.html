@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple People Counter App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="body-container">
+            <header>
+                <h1>leftovers Counter</h1>
+                <p>In the restaurant at Paris, there is always sandwich left overs than has to be reported daily</p>
+                <hr>
+            </header>
+
+            <div>
+                <h1>Sandwich entered: </h1>
+                <h2 id="count-el">0</h2>
+
+                <div>
+                <button id="increment-btn" onclick="increment()"> INCREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                </div>
+            </div>
+
+            <div>
+            <p id="save-el"> PREVIOUS ENTRIES: </p>
+            </div>
+        
+        </div>
+        <script src="index.js">
+
+        </script>
+    </body>
+
+</html>
